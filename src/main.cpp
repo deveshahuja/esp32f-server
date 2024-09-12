@@ -1,6 +1,6 @@
 #include <WiFi.h>                 // WiFi library for ESP32
 #include <ESPAsyncWebServer.h>    // Async WebServer library
-#include <M5Stack.h>
+#include <M5Stack.h>              // Include M5Stack library (if using M5Stack, otherwise remove this line)
 
 // Replace with your network credentials
 const char* ssid = "your_ssid";        // Your Wi-Fi SSID
